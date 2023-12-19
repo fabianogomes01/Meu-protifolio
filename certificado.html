@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Portifólio - certificados</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="/assets/FG.ico" />
+        <!-- Custom Google font-->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet" />
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body class="d-flex flex-column h-100 bg-light">
+        <main class="flex-shrink-0">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg bg-dark text-uppercase " id="mainNav">
+            <div class="container">
+                <a class="navbar-brand" href="#page-top">Meus certificados</a>
+                <button class="navbar-toggler text-uppercase font-weight-bold bg-masthead text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="/index.html">Home</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="/projects.html">Projetos</a></li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
+        <section class="py-5">
+            <div class="container">
+                <div class="row">
+                    <!-- Certificado 1 -->
+                    <div class="col-lg-4 mb-4">
+                        <div class="certificate-container">
+                            <img src="/assets/certificados/1084C5DA-1.png" alt="Certificado 1" class="certificate-image img-fluid">
+                            
+                        </div>
+                    </div>
+        
+                    <!-- Certificado 2 -->
+                    <div class="col-lg-4 mb-4">
+                        <div class="certificate-container">
+                            <img src="/assets/certificados/27948BE2-1.png" alt="Certificado 2" class="certificate-image img-fluid">
+                            
+                        </div>
+                    </div>
+                    
+                                        
+                    <div class="col-lg-4 mb-4">
+                        <div class="certificate-container">
+                            <img src="/assets/certificados/2DCF6E83-1.png" alt="Certificado 2" class="certificate-image img-fluid">
+                            
+                        </div>
+                    </div>
+
+                                       
+                    <div class="col-lg-4 mb-4">
+                        <div class="certificate-container">
+                            <img src="/assets/certificados/AF1E0C93-1.png" alt="Certificado 2" class="certificate-image img-fluid">
+                            
+                        </div>
+                    </div>
+
+                                       
+                    <div class="col-lg-4 mb-4">
+                        <div class="certificate-container">
+                            <img src="/assets/certificados/DAF2D6EB-1.png" alt="Certificado 2" class="certificate-image img-fluid">
+                            
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 mb-4">
+                        <div class="certificate-container">
+                            <img src="/assets/certificados/E6F7A150-1.png" alt="Certificado 2" class="certificate-image img-fluid">
+                            
+                        </div>
+                    </div>     
+                </div>
+            </div>
+        </section>
+
+
+<!-- Footer-->
+<footer class="footer text-center bg-dark">
+    <div class="container">
+        <div class="row text-center">
+            <!-- Footer Social Icons-->
+            <div class="col-lg-4 mb-5 mb-lg-0 mx-auto">
+                <h4 class="text-uppercase mb-4">Redes sociais</h4>
+                <!-- Substituí os ícones e links -->
+                <a class="btn btn-outline-light btn-social mx-1" href="https://github.com/fabianogomes01" target="_blank"><i class="fab fa-github"></i></a>
+                <a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/fabiano-gomes-95590b1a4/" target="_blank"><i class="fab fa-fw fa-linkedin-in"></i></a>
+                <a class="btn btn-outline-light btn-social mx-1" href="https://www.instagram.com/fabianog01/" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+        <!-- Copyright Section-->
+        <div class="copyright py-4 text-center text-white bg-dark">
+            <div class="container"><small>Copyright &copy; Fabiano Gomes</small></div>
+        </div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                // Adiciona um evento de clique para cada imagem com a classe 'certificate-image'
+                var certificateImages = document.querySelectorAll('.certificate-image');
+        
+                certificateImages.forEach(function (image, index) {
+                    image.addEventListener('click', function () {
+                        // Certifica-se de que o Bootstrap está totalmente carregado
+                        if (typeof bootstrap !== 'undefined') {
+                            // Cria um modal usando Bootstrap
+                            var modalElement = document.createElement('div');
+                            modalElement.classList.add('modal');
+                            modalElement.classList.add('fade'); // Adiciona classe fade para transição suave
+        
+                            // Adiciona a imagem clicada ao modal
+                            var modalContent = document.createElement('div');
+                            modalContent.classList.add('modal-dialog');
+                            modalContent.classList.add('modal-dialog-centered');
+        
+                            var modalBody = document.createElement('div');
+                            modalBody.classList.add('modal-content');
+        
+                            var expandedImage = new Image();
+                            expandedImage.src = image.src;
+                            expandedImage.classList.add('img-fluid');
+        
+                            modalBody.appendChild(expandedImage);
+                            modalContent.appendChild(modalBody);
+                            modalElement.appendChild(modalContent);
+        
+                            // Adiciona o modal ao corpo do documento
+                            document.body.appendChild(modalElement);
+        
+                            // Inicializa o modal usando Bootstrap
+                            var myModal = new bootstrap.Modal(modalElement);
+                            
+                            // Exibe o modal
+                            myModal.show();
+                        } else {
+                            console.error('Bootstrap não está totalmente carregado. Verifique as dependências.');
+                        }
+                    });
+                });
+            });
+        </script>
+        
+        
+        
+    </body>
+</html>
